@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+
+<html lang="es">
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>DESARROLLO WEB</title>
+		
+		<style type="text/css">
+			p {
+				font-size:1cm;
+			}
+			
+			.enCursiva {
+				color:white;
+				font-style:italic;
+			}
+			
+			.enGrande {
+				color:white;
+				font-size:2cm;
+			}
+			
+			
+		</style>
+				
+	</head>
+	
+		
+	<body style="background-color:black;">
+	
+		<div align="center">
+			
+			<!-- 1 SÓLO ATRIBUTO style CON LA PROPIEDAD color REPETIDA 3 VECES ...
+					SE HARÁ EFECTIVAMENTE EL DE MÁS DE LA DERECHA -->
+					
+			<p style="color:blue; color:red; color:yellow;"> AZUL, ROJO O AMARILLO </p>
+			
+									
+			<br/><br/><br/>
+			
+			
+			<!-- 3 ATRIBUTOS style CADA UNO DE ELLOS CON UNA SÓLA LA PROPIEDAD color ...
+					SE HARÁ LO QUE DIGA EL PRIMER style -->
+			
+			<p style="color:blue;" style="color:red;" style="color:yellow;">
+				 AZUL, ROJO O AMARILLO 
+			</p>
+			
+									
+			<br/><br/><br/>
+			
+			
+			<!-- 2 ATRIBUTOS class CON UNA ÚNICA DEFINICIÓN ...
+					SÓLO SE HARÁ LO QUE DIGA EL PRIMERO DE LOS MISMOS -->
+						
+			<p class="enCursiva" class="enGrande">
+				 123456789
+			</p>
+			
+									
+			<br/>
+			
+			
+			<!-- 1 SÓLO ATRIBUTO class CON VARIAS DEFINICIONES SEPARADAS POR ESPACIOS ...
+					ES LA FORMA CORRECTA -->
+						
+			<p class="enCursiva enGrande">
+				 123456789
+			</p>
+			
+		</div>
+		
+	</body>
+	
+</html>
